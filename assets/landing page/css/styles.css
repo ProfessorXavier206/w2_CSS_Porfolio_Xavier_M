@@ -1,0 +1,96 @@
+header {
+    background-color: red;
+    border: 10px solid black;
+    display: flex;
+}
+
+
+h1 {
+    display: block;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+header > nav {
+    width: 60%;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav ul li {
+display: inline-block;
+list-style-type: none;
+text-align: center;
+font-family: 'Orbitron', sans-serif;
+font-size: 20px;
+}
+
+#Lineup {
+    padding: 10px;
+}
+
+#Tickets {
+    padding: 10px;
+}
+
+#Dates {
+    padding: 10px;
+}
+
+.section {
+    display: "block";
+    background-color: red;
+    border: solid black 10px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+h3 {display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+h4 {display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+h5 {
+    display: block;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+body {background-image: url("./assets/images/HeaderBackground.png");}
+
+img {
+    border-radius: 50%;
+}
+img:hover {
+    opacity: 0.5;
+    
+}

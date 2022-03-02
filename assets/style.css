@@ -1,0 +1,183 @@
+:root {
+    --white: #fff;
+    --margin: 40px;
+    --dark: black;
+    --hover: purple;
+}
+
+header {
+    font-family: "Audiowide", sans-serif;
+    background-color:var(--white);
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid gray;
+    padding-left: 10px;
+    margin: var(--margin);
+    
+}
+
+header nav ul li {
+    padding: 10px;
+    font-size: 20px;
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+header nav ul {
+    text-align: center;
+    
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+header nav ul a:hover {
+    color: var(--hover);
+}
+
+body {
+    font-family: "Audiowide", sans-serif;
+    background-image: url("./images/galaxy.jpg");
+}
+
+section {
+    margin: var(--margin);
+    border: 5px solid gray;
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+
+
+img {
+    margin: 20px;
+    border: 10px solid gray;
+    width: 60%;
+    height: 1000px;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+#about article {
+    display: flex;
+    flex-direction: column;
+}
+
+#about article h2 {
+    text-decoration: underline;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#about article p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid gray;
+}
+
+#work h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#work #product {
+    margin: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark);
+    border: 3px solid gray;
+}
+
+#work #product p {
+    padding: 50px;
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+}
+
+#work #product:hover {
+    color: var(--white);
+    background-color: var(--hover);
+}
+
+#product a {
+    padding: 80px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border: 5px solid gray;
+    color:  var(--dark);
+    margin: var(--margin);
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer ul li {
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration:  none;
+    color: var(--dark);
+}
+
+a:link {
+    color: var(--dark);
+}
+
+
+a:hover {
+    color: var(--hover);
+}
