@@ -89,7 +89,7 @@ img {
 #about img {
     width: 200px;
     height: 200px;
-    margin: 10px;
+    margin: 5px;
     border: 5px solid gray;
 }
 
@@ -133,7 +133,7 @@ img {
 }
 
 #product a {
-    padding: 80px;
+
     text-decoration: none;
     color: var(--white);
 }
@@ -181,3 +181,59 @@ a:link {
 a:hover {
     color: var(--hover);
 }
+
+
+@media screen and (max-width: 768px) {
+   
+    body,
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    header nav {
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    header h1 {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    img {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 400px;
+        border: 5px solid gray;
+    }
+
+
+    main {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+
+    
+    section #work  {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 5px;
+    }
+
+
+    footer ul  {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}   
+
