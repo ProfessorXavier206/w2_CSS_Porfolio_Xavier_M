@@ -14,3 +14,13 @@
 
 ![screenshot 2](https://user-images.githubusercontent.com/98569275/156472696-b51488f6-04f1-40e5-9ca7-8d0af2b6e0e1.png)
 
+Links to Referance:
+
+https://fontawesome.com/
+
+https://www.w3schools.com/css/css_icons.asp
+
+https://www.w3schools.com/css/css_font_google.asp
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
