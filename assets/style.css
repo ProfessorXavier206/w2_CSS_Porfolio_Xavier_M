@@ -111,7 +111,20 @@ img {
     justify-content: space-evenly;
 }
 
-#work #product {
+#Products {
+    display: flex;
+}
+
+#work #Products #Semantic {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark);
+    border: 3px solid gray;
+}
+
+#work #Products #landing {
     margin: 20px;
     width: 25%;
     display: flex;
@@ -120,22 +133,55 @@ img {
     border: 3px solid gray;
 }
 
-#work #product p {
+#work #Products #example {
+    margin: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark);
+    border: 3px solid gray;
+}
+
+#work #Products #Semantic {
     padding: 50px;
     font-size: medium;
     align-items: center;
     text-align: center;
 }
 
-#work #product:hover {
+#work #Products #landing {
+    padding: 50px;
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+}
+
+#work #Products #example {
+    padding: 50px;
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+}
+
+#work #Products #Semantic:hover {
     color: var(--white);
     background-color: var(--hover);
 }
 
-#product a {
-
-    text-decoration: none;
+#work #Products #landing:hover {
     color: var(--white);
+    background-color: var(--hover);
+}
+
+#work #Products #example:hover {
+    color: var(--white);
+    background-color: var(--hover);
+}
+
+#work #Products article p a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
 }
 
 footer {
@@ -182,58 +228,57 @@ a:hover {
     color: var(--hover);
 }
 
+@media screen and (max-width: 992px){
+    
+}
 
 @media screen and (max-width: 768px) {
-   
-    body,
+    #Products {
+        flex-wrap: wrap;
+    }
 
-    header {
-        flex-direction: column;
-        justify-content: center;
+    #Products #Semantic {
+        flex-grow: 4;
+        width: 100%;
     }
-    header nav {
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    
-    header h1 {
-      flex-direction: column;
-      text-align: center;
+}
+
+
+@media screen and (max-width:425px){
+    header nav ul li {
+        padding: 5px;
     }
 
     img {
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 400px;
-        width: 400px;
+        height: 350px;
         border: 5px solid gray;
     }
 
-
-    main {
-        flex-direction: column;
+    #about {
         flex-wrap: wrap;
     }
 
-    section {
-        flex-direction: column;
+    #about img {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #Products {
         flex-wrap: wrap;
-        align-content: center;
+    }
+
+    #Products #Semantic {
+        flex-grow: 4;
+        width: 100%;
     }
 
 
-    
-    section #work  {
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: 5px;
+    footer section ul{
+        font-size: 11px;
+        display: block;
     }
 
-
-    footer ul  {
-        flex-direction: row;
-        flex-wrap: nowrap;
+    footer section ul li {
+        padding: 5px;
     }
-}   
-
+}
